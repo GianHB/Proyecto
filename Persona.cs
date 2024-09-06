@@ -14,5 +14,9 @@ namespace Proyecto
             this.nombre = nombre;
             this.edad = edad;
         }
+        public virtual void ExplicarTema(string tema) 
+        {
+            Console.WriteLine($"{nombre} explica sobre {tema} con dificultad");
+        }
    }
 }
