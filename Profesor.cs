@@ -12,5 +12,10 @@ namespace Proyecto
         {
             this.especialidad = especialidad;
         }
-   }
+
+        public override void ExplicarTema(string tema)
+        {
+            Console.WriteLine($"{nombre} explica sobre {tema} con facilidad");
+        }
+    }
 }
